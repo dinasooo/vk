@@ -29,7 +29,8 @@ form.addEventListener('submit', (e) =>{
         tower: form.tower.value,
         floor: form.floor.value,
         room: form.room.value,
-        comment: form.comment.value
+        comment: form.comment.value,
+        datetime: form.datetime.value,
     }
     console.log(JSON.stringify(data));
 
